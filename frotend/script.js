@@ -34,6 +34,7 @@ async function loadGroups() {
 }
 
 loadGroups();
+
 async function loadToday() {
 
     const groupId = groupSelect.value;

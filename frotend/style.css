@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    color: #222;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#result {
+    margin-top: 25px;
+}
+
+.lesson {
+    padding: 15px;
+    margin: 10px 0;
+    background: #f5f6f8;
+    border-radius: 10px;
+}
+
+.lesson h3 {
+    margin: 0 0 5px;
+}
